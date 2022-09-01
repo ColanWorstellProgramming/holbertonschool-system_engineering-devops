@@ -1,2 +1,2 @@
 #!/bin/bash
-cat type /tmp/iamafile
+echo type /tmp/iamafile
