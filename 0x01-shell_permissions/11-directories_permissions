@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R duga+x / 
+chmod -R uga+x 
