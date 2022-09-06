@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '\U1F615'
+printf '\U+1F615'
