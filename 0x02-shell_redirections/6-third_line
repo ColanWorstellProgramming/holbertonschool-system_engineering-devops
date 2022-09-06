@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 2 iacta
+ex +2p -scq iacta
