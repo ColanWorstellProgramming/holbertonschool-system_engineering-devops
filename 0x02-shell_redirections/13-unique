@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq - q $
+uniq -q
