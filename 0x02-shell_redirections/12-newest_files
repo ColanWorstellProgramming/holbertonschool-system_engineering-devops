@@ -1,2 +1,2 @@
 #!/bin/bash
-$ echo | ls -lA
+echo | ls -ltA | head -n 10
