@@ -1,2 +1,2 @@
 #!/bin/bash
-grep passwd *
+getent passwd | cut -d ':' -f 1,6
