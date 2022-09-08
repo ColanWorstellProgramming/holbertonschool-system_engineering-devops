@@ -1,2 +1,2 @@
 #!/bin/bash
-grep passwd | sort
+getent passwd | sort -d
