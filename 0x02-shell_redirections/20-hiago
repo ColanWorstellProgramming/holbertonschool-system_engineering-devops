@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -b c,C
+cut -c [(c),(C)]
