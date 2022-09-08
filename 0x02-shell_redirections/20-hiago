@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 'c' | cut -c 'C'
+cut -c c,C
