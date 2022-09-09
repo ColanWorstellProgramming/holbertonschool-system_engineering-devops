@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d / * | wc -l
+cut -d ':' -f1 $PATH | wc -l
