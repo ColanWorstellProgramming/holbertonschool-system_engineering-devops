@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d / wc -l 
+echo cut -d / wc -l 
