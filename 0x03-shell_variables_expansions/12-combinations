@@ -1,2 +1,2 @@
-#!bin/bash
-p={a..z} | eval echo $p
+#!/bin/bash
+echo {:alpha:}{:alpha:}
