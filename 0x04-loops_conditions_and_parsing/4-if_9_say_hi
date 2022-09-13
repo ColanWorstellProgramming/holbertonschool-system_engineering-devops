@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #If
 x=0
-while ((x<10))
+while ((x<=10))
 do
 if ((x==9))
 then
