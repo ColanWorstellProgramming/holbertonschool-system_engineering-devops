@@ -1,4 +1,4 @@
-#!/usr/vin/env bash
+#!/usr/bin/env bash
 #Until
 x=0
 until ((x>9))
