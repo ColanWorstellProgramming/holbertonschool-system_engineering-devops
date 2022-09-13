@@ -8,6 +8,6 @@ then
 echo "Hi"
 else
 echo "Best School"
-done
+fi
 ((x=x+1))
 done
