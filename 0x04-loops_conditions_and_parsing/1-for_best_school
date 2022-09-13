@@ -1,0 +1,5 @@
+#/usr/bin/env bash
+# For Loop
+int i = 0;
+do echo "School";
+i++;
