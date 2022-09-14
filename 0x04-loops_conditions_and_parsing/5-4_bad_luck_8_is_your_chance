@@ -2,6 +2,7 @@
 #Loops
 x=0
 while((x<10))
+do
 if((x==4))
 then
 echo "bad luck"
