@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 #Loops Case
-x=0
-while((x<10))
+x=1
+while((x<=20))
 do
 case $x in
-4) echo "4 bad luck from China";;
-9) echo "9 bad luck from Japan";;
-17) echo "17 bad luck from Italy";;
+4) echo $x 
+	echo "bad luck from China";;
+9) echo $x
+	echo "9 bad luck from Japan";;
+17) echo $x
+	echo "17 bad luck from Italy";;
 *) echo $x;;
 esac
 ((x=x+1))
