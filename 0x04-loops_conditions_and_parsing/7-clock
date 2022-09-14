@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #Clock
 x=0
-while((x<=13))
+while(($x<=13))
 do
 echo "Hour: $x"
 ((x=x+1))
 y=1
-while((y<60))
+while(($y<60))
 do
 echo $y
 done
