@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# beheaded
+pkill -f "7-highlander" -- signal SIGKILL
