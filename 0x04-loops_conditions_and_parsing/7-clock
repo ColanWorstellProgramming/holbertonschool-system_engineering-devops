@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Clock
 x=0
-while((x<=12))
+while((x<=13))
 do
 echo "Hour: $x"
 ((x=x+1))
