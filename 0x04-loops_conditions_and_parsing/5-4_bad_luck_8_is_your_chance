@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Loops
+x=0
+while((x<10))
+if((x==4))
+then
+echo "bad luck"
+elif((x==8))
+then
+echo "good luck"
+else
+echo "Best School"
+fi
+done
