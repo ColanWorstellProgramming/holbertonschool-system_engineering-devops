@@ -4,7 +4,7 @@ x=0
 y=1
 while((x<12))
 do
-echo "Hour:" $x
+echo "Hour: $x"
 ((x=x+1))
 ((y=1))
 while((y<60))
