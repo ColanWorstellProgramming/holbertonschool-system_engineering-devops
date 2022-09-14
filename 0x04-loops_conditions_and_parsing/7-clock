@@ -10,6 +10,6 @@ echo "Hour: $x"
 while((y<60))
 do
 echo $y
-done
 ((y=y+1))
+done
 done
