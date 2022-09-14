@@ -12,4 +12,5 @@ echo "good luck"
 else
 echo "Best School"
 fi
+((x=x+1))
 done
