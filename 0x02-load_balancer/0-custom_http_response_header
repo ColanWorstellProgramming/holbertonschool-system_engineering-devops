@@ -13,7 +13,7 @@ printf %s "server {
     listen  [::]:80 default_server;
     root    /var/www/html;
     index   index.html;
-    add_header X-Serverd-By $HOST
+    add_header X-Served-By $HOSTNAME;
     location /redirect_me {
         return 301 http://opticspc.tech/;
     }
