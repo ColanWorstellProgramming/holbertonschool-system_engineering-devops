@@ -3,9 +3,7 @@
 
 apt-get update
 apt-get install -y nginx
-apt-get install --no-install-recommends software-properties-common
-add-apt-repository ppa:vbernat/haproxy-2.7
-apt-get install haproxy=2.7.\*
+apt-get -y install haproxy
 echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 cat <<EOT > /etc/haproxy/haproxy.cfg
 defaults
@@ -18,4 +16,4 @@ backend questionTwo
     server  web1 15.188.232.6 check
     server  web2 35.180.90.107 check
 EOT
-service haproxy restart
+sudo service haproxy restart
