@@ -7,5 +7,15 @@ apt-get install --no-install-recommends software-properties-common
 add-apt-repository ppa:vbernat/haproxy-2.7
 apt-get install haproxy=2.7.\*
 echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
-
+cat <<EOT > /etc/haproxy/haproxy.cfg
+defaults
+    mode    http
+frontend http-in
+    bind    *:80
+    default_backend questionTwo
+backend questionTwo
+    balance roundrobin
+    server  web1 15.188.232.6 check
+    server  web2 35.180.90.107 check
+EOT
 service haproxy restart
