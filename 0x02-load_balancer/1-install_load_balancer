@@ -6,6 +6,11 @@ apt-get install -y nginx
 apt-get -y install haproxy
 echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 cat <<EOT > /etc/haproxy/haproxy.cfg
+defaults
+    mode    http
+frontend http-in
+    bind    *:80
+    default_backend questionTwo
 backend questionTwo
     balance roundrobin
     server 5584-web-01 15.188.232.6:80 check
