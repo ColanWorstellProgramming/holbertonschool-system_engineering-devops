@@ -13,7 +13,7 @@ frontend http-in
     default_backend questionTwo
 backend questionTwo
     balance roundrobin
-    server 15.188.232.6 check
-    server 35.180.90.107 check
+    server 15.188.232.6:80 check
+    server 35.180.90.107:80 check
 EOT
 sudo service haproxy restart
