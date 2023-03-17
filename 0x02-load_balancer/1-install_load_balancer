@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Install nginx
+
+apt-get update
+apt-get install -y nginx
+apt-get install --no-install-recommends software-properties-common
+add-apt-repository ppa:vbernat/haproxy-2.7
+apt-get install haproxy=2.7.\*
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+
+service haproxy restart
