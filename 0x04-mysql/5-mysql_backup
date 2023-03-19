@@ -2,4 +2,4 @@
 # SQL Dump And Archive
 
 
-mysqldump -uroot -p"$1" --all-databases | gzip -c > $(date +%d-%m-%Y).tar.gz
+mysqldump -uroot -p"$1" --all-databases > backup.sql | gzip -c > "$(date +"%d-%m-%Y").tar.gz"
