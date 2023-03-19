@@ -1,0 +1,17 @@
+sudo mysql
+
+CREATE DATABASE tyrell_corp;
+
+# Not Required But Shows Database
+SHOW DATABASES;
+
+use tyrell_corp;
+CREATE TABLE nexus6(
+    Name varchar(32)
+);
+INSERT INTO nexus6(Name) VALUES('Colan');
+
+# Not Required But Shows Table With Data
+SELECT * FROM nexus6;
+
+GRANT SELECT ON nexus6 TO holberton_user@localhost;
