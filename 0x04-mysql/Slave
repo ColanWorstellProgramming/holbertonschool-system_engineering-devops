@@ -1,0 +1,11 @@
+[master 698b899] Replica-
+ 9 files changed, 116 insertions(+)
+ create mode 100644 0x04-mysql/0-install_sql
+ create mode 100644 0x04-mysql/1-users_sql
+ create mode 100644 0x04-mysql/2-create_database_sql
+ create mode 100644 0x04-mysql/3-replica_sql
+ create mode 100644 0x04-mysql/4-commands_for_primary
+ create mode 100644 0x04-mysql/4-commands_for_replica
+ create mode 100644 0x04-mysql/4-mysql_configuration_primary
+ create mode 100644 0x04-mysql/4-mysql_configuration_replica
+ create mode 100644 0x04-mysql/Slave
